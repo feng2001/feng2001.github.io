@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Koike's portoforio</title>
+    <title>Koike's portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -13,14 +13,29 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-        <header><!--とはなんぞ？-->
-            <nav><!--これも知らん……-->
-                <ul>
-                    <li><a href="index.html">Home?</a></li><!--ヤバイ。バーン・ノーティスのページにしちゃったｗｗｗｗ-->
-                    <li><a href="about.html" class="selected">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <header><!--頭の部分。ドロップダウンあり-->
+              <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Koike's portfolio</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">CG関係</a></li>
+              <li><a href="#">映像関係</a></li>
+            　<li><a href="https://github.com/feng2001" target="blank">GitHub</a></li>
+              <li class="active"><a href="#">お問い合わせ</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
             <div id="logo">
                 <img src="profile.jpg" alt="">
                 <h1>小池 惇史</h1>
@@ -34,14 +49,14 @@
         <p>群馬県吾妻郡東吾妻町出身。働く傍らでWebアプリの勉強中</p>
         <p>Photoshop、Illustrater、AfterEffectsでの作品制作経験あり</p>
         <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
-        <h3>リンク</h3>
+        <h3>SNS</h3>
         <a href="https://www.facebook.com/profile.php?id=100002281030421" target="_blank">
-              <img src="facebook.png" alt="お問い合わせはこちら？"></li>
-            <li><a href="https://www.twitter.com/tarokirameki" target="blank">Twitter</a></li>
-        </ul>
+              <img src="facebook.png" alt="お問い合わせはこちら？" width="50" height="50"></li>
+        <a href="https://www.twitter.com/tarokirameki" target="blank">
+                <img src="twitter.png" alt="お問い合わせはこちら？" width="55" height="55"></a></li>
         </section>
         <footer>
-            <p>&copy; 2015 Taro Kirameki.</p>
+            <p>&copy; 2016 Atsushi Koike.</p>
         </footer>
         </div>
     </body>
