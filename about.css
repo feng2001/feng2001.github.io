@@ -1,6 +1,12 @@
 body {
       font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
     background-color: #ddd;
+        background-image: url("paper3_01.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
     font-style: 14px;
 }
 nav ul li {
@@ -22,7 +28,7 @@ nav ul li a.selected {
 .container {
   max-width: 800px;
   margin: -100px auto 0;
-  background-color: #fff;
+  background-color: #eee;
 }
 
 section {
@@ -31,7 +37,6 @@ section {
 
 section h2 {
   padding: 10px 0 20px 0;
-  text-align: center;
   letter-spacing: 0.15em;
 }
 nav {
@@ -46,12 +51,7 @@ nav {
     padding: 0;
 }
 header {
-    background-image: url("bg.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
     padding-bottom: 130px;
-    
 }
 footer {
   padding: 20px 0;
@@ -75,7 +75,8 @@ footer {
 #logo h1 {
   letter-spacing: 0.15em;
   color: #fff;
-  text-shadow: 1px 1px 0px #000;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: bold;
 }
 span.red {
   color: red;
